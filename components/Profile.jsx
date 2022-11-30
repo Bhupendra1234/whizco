@@ -15,10 +15,10 @@ import Linkedin from '../assets/LinkedIn.png';
 import Twitter from '../assets/Twitter.png';
 const Profile = (props) => {
     return (
-        <div className='h-[550px] border w-full' >
+        <div className='h-[550px] border w-full border-secondary rounded-md' >
             <div className="relative">
                 <Image src={Ractangle} height={300} alt="Ractangle" />
-                <div className={`${props.quality.includes('Good')?'bg-green-300':'bg-[#FFCA7A]'} absolute top-0 right-0 border py-2 px-3 mt-1 rounded-bl-2xl `}>
+                <div className={`${props.quality.includes('Good')?'bg-green-300':'bg-[#FFCA7A]'} absolute top-0 right-0 border p-2 text-sm mt-1 rounded-bl-2xl `}>
                     <p className={`${props.quality.includes('Good')?'text-[#128807]':'text-[#D16900]'} flex`}>  <Image src={props.smile} className={`object-contain mr-2 w-3`} alt='Smile'  />{props.quality}</p>
                 </div>
                 <div className='p-2 absolute top-10 left-14 '>

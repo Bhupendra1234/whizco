@@ -7,14 +7,17 @@ export const navigation = [
     {
       name: 'Home',
       href: '#',
+      active:false
     },
     {
       name: 'Creators',
       href: '#',
+      active:false
     },
     {
       name: 'My Campaign',
       href: '#',
+      active:true
     },
    
 ];
